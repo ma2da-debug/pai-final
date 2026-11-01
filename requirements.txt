@@ -1,0 +1,8 @@
+mujoco==3.3.7
+numpy==1.26.4
+scipy==1.17.1
+torch==2.2.2
+transformers==4.49.0
+pillow==13.0.0
+imageio==2.38.1
+imageio-ffmpeg==0.7.0

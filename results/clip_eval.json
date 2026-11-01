@@ -1,0 +1,17 @@
+{
+ "layouts": 20,
+ "correct": {
+  "the red cube": 20,
+  "the blue cube": 20,
+  "the green cylinder": 20,
+  "the yellow cylinder": 20,
+  "a red block": 20,
+  "a blue block": 20,
+  "something green": 20,
+  "something yellow": 20,
+  "something the color of a banana": 20,
+  "something the color of a ripe tomato": 17,
+  "something the color of the ocean": 11,
+  "something the color of fresh grass": 20
+ }
+}

@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+results/*.mp4
+results/*.pdf
+MUJOCO_LOG.TXT

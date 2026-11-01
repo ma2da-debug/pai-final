@@ -1,0 +1,1013 @@
+{
+ "summary": {
+  "commands": 80,
+  "ground_truth_success": 80,
+  "self_reported_success": 80,
+  "false_success": 0,
+  "disturbed_commands": 20,
+  "disturbed_success": 20,
+  "undisturbed_first_try": 60
+ },
+ "episodes": [
+  {
+   "seed": 0,
+   "log": [
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.99,
+      0.991
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.985
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 1,
+   "log": [
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.874,
+      0.775
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.968
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.968
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 2,
+   "log": [
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.984,
+      0.986
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.967
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 3,
+   "log": [
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.965,
+      0.977
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.897
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.998
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 4,
+   "log": [
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.999,
+      0.996
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.996
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.899
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 5,
+   "log": [
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.857,
+      0.819
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.998
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 6,
+   "log": [
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.97,
+      0.991
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.814
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 7,
+   "log": [
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.855,
+      0.897
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.989
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.916
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 8,
+   "log": [
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.918,
+      0.952
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.994
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 9,
+   "log": [
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.984,
+      0.989
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.979
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 10,
+   "log": [
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.98,
+      0.978
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.933
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.882
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 11,
+   "log": [
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.811,
+      0.91
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.997
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 12,
+   "log": [
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.9,
+      0.726
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.984
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.959
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 13,
+   "log": [
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.99,
+      0.981
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.984
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 14,
+   "log": [
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.996,
+      0.996
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.974
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 15,
+   "log": [
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.966,
+      0.963
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.909
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 16,
+   "log": [
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.976,
+      0.977
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.959
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.987
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 17,
+   "log": [
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.95,
+      0.94
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.995
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 18,
+   "log": [
+    {
+     "command": "put the blue cube in the right bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.991,
+      0.998
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.984
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.88
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  },
+  {
+   "seed": 19,
+   "log": [
+    {
+     "command": "put the blue cube in the left bin",
+     "success": true,
+     "attempts": 2,
+     "chosen_scores": [
+      0.985,
+      0.993
+     ],
+     "reason": "",
+     "disturbed": true,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the red cube in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.999
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the yellow cylinder in the left bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      0.887
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    },
+    {
+     "command": "put the green cylinder in the right bin",
+     "success": true,
+     "attempts": 1,
+     "chosen_scores": [
+      1.0
+     ],
+     "reason": "",
+     "disturbed": false,
+     "ground_truth_ok": true
+    }
+   ]
+  }
+ ]
+}
